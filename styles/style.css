@@ -1,6 +1,5 @@
-body{
-  margin:zero;
-}
+
+
 nav{
     color: #396E94;
     background-color:palegreen;
@@ -49,3 +48,5 @@ img {
   border:5px solid turquoise;margin: 10px 5px;
 
 }
+footer a:hover{
+  background-color: gray; }
