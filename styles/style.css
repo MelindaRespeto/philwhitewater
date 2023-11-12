@@ -1,35 +1,36 @@
+body{
+  margin: 0;
+}
+.logo{
+  display:inline-block;
+  margin:zero;
 
+}
 
 nav{
+
     color: #396E94;
     background-color:palegreen;
     border-block-end-color: #396E94;
     display: flex;
     justify-content: space-around;
     grid-row: auto;
-    padding: 25px 50px;
+    padding: 50px 50px;
     position: relative;
    
   }
-  .logo{
-    display:inline-block;
-    margin:zero
-
-  }
+  
     header{
     display: grid;
     grid-template-columns: 150px auto;
 }
 .content1{
   display: grid;
- grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.brand{
-    padding-top: 10px;
-    justify-self: center;
-    align-self: center;
-}
-H1{ 
+
+
+h1{ 
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
@@ -51,4 +52,5 @@ img {
 footer a:hover{
   background-color:pink; 
   text-align: right;
+  
 }
