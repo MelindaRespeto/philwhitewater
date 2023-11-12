@@ -16,8 +16,7 @@ nav{
     margin:zero
 
   }
-  }
-  header{
+    header{
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -39,7 +38,8 @@ H1{
 }
 p{
   background-color: powderblue;
-  margin-top: 25px;
+  margin-top: 25px
+
 }
 body{
   margin: 0;
