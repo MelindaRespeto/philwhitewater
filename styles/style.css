@@ -1,7 +1,11 @@
+header{
+  display: grid;
+  grid-template-columns: 150px auto;
+}
 body{
   margin: 0;
 }
-.logo{
+div {
   display:inline-block;
   margin:zero;
 
@@ -15,38 +19,33 @@ nav{
     display: flex;
     justify-content: space-around;
     grid-row: auto;
-    padding: 50px 50px;
-    position: relative;
-   
-  }
-  
-    header{
-    display: grid;
-    grid-template-columns: 150px auto;
 }
-.content1{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
+#logo_link  {
 
+ padding-top: 5px;}
 
 h1{ 
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px;
+  align-content: left;
+ 
  
 }
 p{
   background-color: powderblue;
-  margin-top: 25px
+  margin-top: 25px;
+  column-span: none;
 
 }
+
 body{
   margin: 0;
 }
 img {
   border:5px solid turquoise;margin: 10px 5px;
+  
 
 }
 footer a:hover{
