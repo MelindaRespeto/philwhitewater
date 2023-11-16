@@ -3,15 +3,9 @@ header{
   grid-template-columns: 150px auto;
 }
 body{
-  margin: 0;
-  display: grid;
+    margin: 40px;
+  }
   
-}
-div {
-  display:inline-block;
-  margin:zero;
-
-}
 nav{
 
     color: #396E94;
@@ -21,10 +15,9 @@ nav{
     justify-content: space-around;
     grid-row: auto;
 }
+
 #logo_link  {
-
  padding-top: 5px;}
-
 h1{ 
   padding-top: 20px;
   padding-bottom: 10px;
@@ -35,7 +28,6 @@ h1{
   grid-template-columns:1fr 1fr;
 }
 
-
 h2{
   top:10px
 }
@@ -44,7 +36,8 @@ p{
   margin-top: 25px;
   column-span: none;
   text-align: left;
-
+  grid-column: 2/4;
+  grid-row: 3/4;
 }
 
 body{
