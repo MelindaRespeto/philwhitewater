@@ -1,7 +1,9 @@
 header{
   display: grid;
   grid-template-columns: 150px auto;
-  background-color: aliceblue;
+  background-color: rgb(100, 101, 101);
+  text-align: center;
+  border: 3px solid green;
 }
   
 nav{display: flex;
@@ -27,24 +29,9 @@ nav:hover{
  body{
   background-color:cadetblue;
   margin:5px;
+  margin-top: 50px;
  }
-h1{ 
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-  align-content: left;
-  display: grid;
- 
-}
-.Caramoan{
-  margin-top: 150px;
 
-}
-
-h2{
-  top:10px
-}
 
 img {
   border:5px solid turquoise;margin: 10px 5px;
