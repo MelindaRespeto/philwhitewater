@@ -27,7 +27,9 @@ h1{
   display: grid;
   grid-template-columns:1fr 1fr;
 }
-
+.Caramoan {
+  margin-top: 10px;
+}
 h2{
   top:10px
 }
