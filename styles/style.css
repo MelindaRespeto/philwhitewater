@@ -9,7 +9,7 @@ body{
 nav{
 
     color: #396E94;
-    background-color:palegreen;
+    background-color:rgb(201, 227, 201);
     border-block-end-color: #396E94;
     display: flex;
     justify-content: space-around;
