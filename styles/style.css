@@ -1,10 +1,14 @@
 header{
   display: grid;
   grid-template-columns: 150px auto;
+  background-color: aliceblue;
 }
   
 nav{display: flex;
-  justify-content: space-around;}
+  justify-content: space-around;
+  font-size: 17px;background-color:cadetblue;
+}
+  
     
 nav:hover{
     background-color: #ddd;
@@ -17,11 +21,13 @@ nav:hover{
   }
  
 #logo_link  {
- padding-top: 5px;
- justify-self: center;
+ padding-top: 0px;
+ justify-self: top;
  align-self: center;
 }
- 
+ body{
+  background-color:cadetblue
+ }
 h1{ 
   padding-top: 20px;
   padding-bottom: 10px;
@@ -32,19 +38,12 @@ h1{
   grid-template-columns:1fr 1fr;
 }
 .Caramoan{
-  margin-top: 20px;
+  margin-top: 150px;
+  
 }
 
 h2{
   top:10px
-}
-p{
-  background-color: powderblue;
-  margin-top: 25px;
-  column-span: none;
-  text-align: left;
-  grid-column: 2/4;
-  grid-row: 3/4;
 }
 
 body{
