@@ -2,22 +2,26 @@ header{
   display: grid;
   grid-template-columns: 150px auto;
 }
-body{
-    margin: 40px;
-  }
   
-nav{
-
-    color: #396E94;
-    background-color:rgb(201, 227, 201);
-    border-block-end-color: #396E94;
-    display: flex;
-    justify-content: space-around;
-    grid-row: auto;
-}
-
+nav{display: flex;
+  justify-content: space-around;}
+    
+nav:hover{
+    background-color: #ddd;
+    color: rgb(232, 125, 125);
+  }
+  nav a{
+    text-decoration: none;
+    text-align: center;
+    padding: 40px;  
+  }
+ 
 #logo_link  {
- padding-top: 5px;}
+ padding-top: 5px;
+ justify-self: center;
+ align-self: center;
+}
+ 
 h1{ 
   padding-top: 20px;
   padding-bottom: 10px;
