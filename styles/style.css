@@ -1,6 +1,7 @@
 section{display: inline-block;
 width:100%;
 border: 5px;
+padding-top: 10px;
 }
 header{
   
@@ -16,6 +17,11 @@ nav{display: flex;
   font-size: 17px;
   background-color:cadetblue;
   margin-top: left;
+
+}
+.logo{
+  margin: auto;
+  margin-left: 0px;
 }
   
 nav:hover{
