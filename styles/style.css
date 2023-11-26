@@ -1,14 +1,21 @@
+section{display: inline-block;
+width:100%;
+border: 5px;
+}
 header{
-  display: grid;
+  
   grid-template-columns: 150px auto;
   background-color: rgb(100, 101, 101);
   text-align: center;
   border: 3px solid green;
 }
   
+
 nav{display: flex;
   justify-content: space-around;
-  font-size: 17px;background-color:cadetblue;
+  font-size: 17px;
+  background-color:cadetblue;
+  margin-top: left;
 }
   
 nav:hover{
@@ -17,22 +24,20 @@ nav:hover{
   }
   nav a{
     text-decoration: none;
-    text-align: center;
-    padding: 40px;  
+    text-align: left;
+    padding: 60px;  
+  }
+  .block2{
+   padding-top: 20px;
   }
  
-#logo_link  {
- padding-top: 0px;
- justify-self: top;
- align-self: center;
-}
  body{
   background-color:cadetblue;
   margin:5px;
   margin-top: 50px;
  }
 
- .center,.ayos {
+ .ayos {
   text-align: center;
   border: 3px solid green;
   letter-spacing: 5px;
