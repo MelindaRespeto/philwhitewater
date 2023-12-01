@@ -39,11 +39,27 @@ nav:hover{
   }
   .block1{
     border-top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
   }
+
   .block2{
    padding-top: 20px;
+   margin-left: 40px;
+   padding-bottom: 10px;
+  
   }
- 
+  .block3{
+    padding-top: 20px;
+    margin-left: 40px;
+    padding-bottom: 10px;
+    font-style: arial;
+  }
+
+ .bottom-left{
+  margin-left: 40px;
+ }
+
  body{
   background-color:cadetblue;
   margin:5px;
@@ -57,27 +73,106 @@ nav:hover{
   padding: 25px;
   margin-top: 50px;
   letter-spacing: 10px;
+  text-size-adjust: 20px;
 
   
 }
 .bottom-left {
   position: absolute;
   bottom: 8px;
-  left: 16px;}
+  left: 16px;
+}
  .ayos {
   text-align: center;
   border: 3px solid green;
   letter-spacing: 5px;
  }
- .naku,.iyo{
+ .iyo{
     text-indent: 50px;
     text-align: justify;
-    letter-spacing: 5px;
-    font-style: normal;
+    letter-spacing: auto;
+    font-style: Arial;
  }
 img {
   border:5px solid turquoise;margin: 10px 5px;
 
+}
+{
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
 footer a:hover{
   background-color:pink; 
