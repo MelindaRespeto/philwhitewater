@@ -6,6 +6,7 @@ border: 5px;
   .block1 {
     margin-top: 0px;
     padding-top: 0px;
+    color: white;
   }
 .text-block{
   position: absolute;
@@ -19,13 +20,17 @@ border: 5px;
 nav{display: flex;
   justify-content: space-around;
   font-size: 17px;
-  background-color:cadetblue;
+  background-color:black;
   margin-top: left;
 
 }
 .logo{
   margin: auto;
-  margin-left: 0px;
+  margin-block-start: 0px;
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 0px;
+ 
 }
   
 nav:hover{
@@ -54,7 +59,8 @@ nav:hover{
     padding-top: 50px;
     margin-left: 40px;
     padding-bottom: 50px;
-    font-style: arial;
+    font-style: Verdana;
+    font-size: small;
   }
 
  .bottom-left{
@@ -75,12 +81,14 @@ nav:hover{
   margin-top: 50px;
   letter-spacing: 10px;
   text-size-adjust: 20px;
+  margin-top: 5px;
 
   
 }
 .p{
   margin-left: 5px;
 }
+
 .bottom-left {
   position: absolute;
   bottom: 8px;
@@ -99,9 +107,6 @@ nav:hover{
  }
 img {
   border:5px solid turquoise;margin: 10px 5px;
-
-}
-{
   box-sizing: border-box;
 }
 .container {
@@ -150,8 +155,6 @@ img {
   position: absolute;
   top: 0;
 }
-
-
 .caption-container {
   text-align: center;
   background-color: #222;
@@ -160,7 +163,7 @@ img {
 }
 
 .row:after {
-  content: "";
+  content: "Slideshow";
   display: table;
   clear: both;
 }
@@ -205,11 +208,14 @@ img {
           }
           slides[slideIndex-1].style.display = "block";
           dots[slideIndex-1].className += " active";
-          captionText.innerHTML = dots[slideIndex-1].alt;
+          captionText.innerHTML = dots[slideIndex-1]alt;
         }
         </script>
 footer a:hover{
-  background-color:pink; 
+  background-color: lightblue; 
   text-align: left;
+  padding-top: 50px;
+  margin-top:50px ;
+  margin-left: 10px;
   
 }
