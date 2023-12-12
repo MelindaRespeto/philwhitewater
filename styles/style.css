@@ -79,16 +79,28 @@ nav:hover{
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 25px;
-  margin-top: 50px;
+  margin-top: 75px;
   letter-spacing: 10px;
   text-size-adjust: 20px;
-  margin-top: 5px;
+}
+.The {
+  padding-top: 20px;
+  margin: auto;
+  padding-bottom: 50px;
+  align-content: center;
+}
+.naks{
+  padding-top: 20px;
+  margin: auto;
+  padding-bottom: 50px;
+  align-content: center;
 
-  
 }
 .p{
   margin-left: 5px;
+  font-style: Arial;
 }
+
 
 .bottom-left {
   position: absolute;
