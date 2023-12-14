@@ -1,12 +1,12 @@
 section{display: inline-block;
 width:100%;
-border: 5px;
+border: 0px;
 }
 
   .block1 {
     margin-top: 0px;
     padding-top: 0px;
-    color: white;
+    color: rgb(29, 14, 14);
   }
 .text-block{
   position: absolute;
@@ -19,19 +19,17 @@ border: 5px;
 }
 nav{display: flex;
   justify-content: space-around;
-  font-size: 17px;
+  font-size: 30px;
   background-color: gray;
   margin-top: left;
-  margin-top: 0px;
-
+  
 }
 .logo{
   margin: auto;
   margin-block-start: 0px;
   max-width: 100%;
   max-height: 100%;
-  padding-left: 0px;
- 
+  
 }
   
 nav:hover{
@@ -92,13 +90,24 @@ nav:hover{
   align-content: center;
 }
 .naks{
-  padding-top: 20px;
+  padding-top: 5px;
   margin: auto;
   padding-bottom: 50px;
   align-content: center;
   font-size: medium;
-
+  margin-left: 5px;
+  text-indent: 50px;
 }
+ .ano{
+  padding-top: 5px;
+  margin: auto;
+  padding-bottom: 50px;
+  align-content: center;
+  font-size: medium;
+  margin-left: 5px;
+  text-indent: 50px;
+
+ }
 .p{
   margin-left: 5px;
   font-style: Arial;
@@ -112,17 +121,19 @@ nav:hover{
 }
  .ayos {
   text-align: center;
-  border: 3px solid green;
   letter-spacing: 5px;
+
  }
  .iyo{
     text-indent: 50px;
     text-align: justify;
     letter-spacing: auto;
     font-style: Arial;
+    
  }
-img {
-  border:5px solid turquoise;margin: 10px 5px;
+.img {
+  border:5px solid turquoise;
+  margin: 10px 5px;
   box-sizing: border-box;
 }
 .container {
@@ -232,6 +243,5 @@ footer a:hover{
   text-align: left;
   padding-top: 50px;
   margin-top:50px ;
-  margin-left: 10px;
-  
+  margin-left: 10px;  
 }
